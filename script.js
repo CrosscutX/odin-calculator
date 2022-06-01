@@ -28,5 +28,13 @@ function operate(operator, num1, num2){
     }
 }
 
-let displayValue;
+
+let displayValue = '';
+const viewPort = document.querySelector('.viewport');
+const num1 = document.getElementById('1');
+
+num1.addEventListener('click', () =>{
+    displayValue += "1";
+    viewPort.textContent = displayValue;
+})
 
