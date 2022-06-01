@@ -31,6 +31,7 @@ function operate(operator, num1, num2){
 
 //Get id of calc buttons
 let displayValue = '';
+let calcValue = '';
 const viewPort = document.querySelector('.viewport');
 const clear = document.querySelector('.clear');
 const num0 = document.getElementById('0');
@@ -44,9 +45,9 @@ const num7 = document.getElementById('7');
 const num8 = document.getElementById('8');
 const num9 = document.getElementById('9');
 const addBtn = document.getElementById('+');
-const subtractBtn = document.getElementById('-');
-const multiplyBtn = document.getElementById('*');
-const divideBtn = document.getElementById('/');
+const subBtn = document.getElementById('-');
+const multBtn = document.getElementById('*');
+const divBtn = document.getElementById('/');
 
 
 
@@ -104,4 +105,20 @@ num8.addEventListener('click', () =>{
 num9.addEventListener('click', () =>{
     displayValue += "9";
     viewPort.textContent = displayValue;
+});
+
+addBtn.addEventListener('click', ()=>{
+
+});
+
+subBtn.addEventListener('click', ()=>{
+    
+});
+
+multBtn.addEventListener('click', ()=>{
+    
+});
+
+divBtn.addEventListener('click', ()=>{
+    
 });

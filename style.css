@@ -60,6 +60,11 @@ h1{
     flex: auto;
 }
 
+.row.bottom button:nth-child(2){
+    flex-grow: 2;
+}
+    
+
 .button{
     display: flex;
     height: 85px;
