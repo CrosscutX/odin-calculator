@@ -27,4 +27,3 @@ function operate(operator, num1, num2){
         return 'Invalid Operator'
     }
 }
-console.log(operate('', 2, 3));
