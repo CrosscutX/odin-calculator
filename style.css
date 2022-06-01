@@ -38,7 +38,6 @@ h1{
     flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
-    flex: auto;
 }
 
 .button-container{
@@ -52,25 +51,26 @@ h1{
     display: flex;  
     flex-direction: row;
     justify-content: space-between;
-    flex: auto;
     gap: 10px;
 }
 
 .row-top{
+    display: flex;
+    flex: auto;
 }
 
 .button{
     display: flex;
-    height: 80px;
-    width: 50px;
+    height: 85px;
+    width: 88px;
     justify-content: center;
     align-items: center;
     color: black;
     background-color: #E9F7F9;
-    flex: auto;
     gap: 10px;
 }
 
 .button.clear{
-    width: 90px;
+    flex: auto;
+    background-color: #66C3D1;
 }
